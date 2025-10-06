@@ -126,7 +126,7 @@ rollDice.addEventListener("click", () => {
     setTimeout(() => clearInterval(interval), 500);
 });
 
-// Add button to test CORS failure (optional - for demonstration)
+// Button to test CORS
 const corsTestButton = document.createElement('button');
 corsTestButton.textContent = 'Test CORS Failure';
 corsTestButton.className = 'rollDice';
