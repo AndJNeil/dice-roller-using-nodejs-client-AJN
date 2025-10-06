@@ -1,7 +1,6 @@
-// Configuration for API server
-const API_URL = 'http://localhost:3000'; // Update this with your Azure Node.js server URL
+const API_URL = 'dice-roller-using-nodejs-server-an-gnbbd6aghpdgd5g4.centralus-01.azurewebsites.net';
 
-// Wake up the server when page loads
+
 async function wakeUpServer() {
     try {
         console.log('Waking up server...');
