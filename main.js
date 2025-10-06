@@ -1,5 +1,6 @@
-const API_URL = 'dice-roller-using-nodejs-server-an-gnbbd6aghpdgd5g4.centralus-01.azurewebsites.net';
-
+const API_URL = window.location.hostname === 'localhost' 
+  ? 'http://localhost:3000' 
+  : 'https://dice-roller-using-nodejs-server-an-gnbbd6aghpdgd5g4.centralus-01.azurewebsites.net';
 
 async function wakeUpServer() {
     try {
